@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 1</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: #1a64d6;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+      }
+      .temp-today {
+        text-align: center;
+        color: black;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 7px 0;
+      }
+      .high {
+          font-weight: bold;
+        }
+      ul { 
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          font-size:1.17em;
+          padding:0;
+          margin: 0 154.5px;
+
+            list-style: none;
+        }
+        li{ padding: 22px 0;
+            border: 1px solid #fffbef;
+            border-radius: 15px;
+        text-align: center;
+    transition: all 200ms ease-in-out;}
+        li:hover{background: #FFFBEF;}
+        .temp{ 
+            font-weight: normal;
+            font-family: monospace;
+            font-size: 18px;
+            opacity:0.7;
+            padding: 20px 0;
+        }
+        button{background:#1a64d6;
+        color: white;
+        border: 1px solid #1a64d6;
+        border-radius: 30px;
+        padding: 18px 24px;
+        display:block;
+        margin: 10px auto;
+font-size: 16px;
+transition: all 200ms ease-in-out;
+    }
+    button:hover{cursor:pointer;
+    background: white;
+color:#1a64d6;
+}
+p{font-family: monospace;
+font-size: 18px;
+Opacity: 0.7;
+font-weight: normal;
+text-align: center;}
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤
+      <br />
+      Currently 21º in Tokyo
+    </h1>
+    <div class="temp-today">
+      13º /
+      <span class="high">23º</span>
+    </div>
+    <ul>
+        <li>
+            🌧Tomorrow
+    <div class="temp">
+      10º /
+      <span class="high">22º</span>
+    </div>
+    </li>
+    <li>
+    🌥Saturday
+    <div class="temp">
+      15º /
+      <span class="high">17º</span>
+    </div>
+    </li>
+    <li>
+    ☀️Sunday
+    <div class="temp">
+      25º /
+      <span class="high">28º</span>
+    </div>
+    </li>
+    <button>Change city</button>
+    <p>Coded by Summer Gomersal</p>
+  </body>
+</html>
